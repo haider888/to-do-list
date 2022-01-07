@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Poppins&family=Pushster&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    /* background-color: rgb(252, 5, 5); */
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+
+}
+.todoContainer{
+  margin-top: 20px;
+  width: 50%;
+}
+
+
+.title{
+    width: 100%;
+    background-color:rgba(0, 142, 204, 1);
+    text-align: center;
+    font-family: Poppins;
+    color: white;
+    margin-top: 20px;
+}
+.todoForm{
+    margin-top: .5px;
+    display: flex;
+    justify-content: center;
+}
+.todoForm input{
+   
+    width: 80%;
+    height: 40px;
+    outline: none;
+    border: 2px solid rgba(0, 142, 204, 1) ;
+
+}
+.add-btn{
+    width: 20%;
+    border: 2px solid rgba(0, 142, 204, 1) ;
+    background-color:#4CAF50;
+    color: white;
+    font-family: poppins;
+}
+
+table {
+    font-family: poppins;
+    border-collapse: collapse;
+    width: 100%; 
+}
+.thone{
+    width: 68.4%;
+}
+table,tr,td{
+    border: 2px solid rgba(0, 142, 204, 1);
+}

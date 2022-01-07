@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Poppins&family=Pushster&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.todotaskContainer{
+  margin-top: 90px;
+  width: 50%;
+}
+/* table {
+    font-family: poppins;
+    border-collapse: collapse;
+    width: 100%; 
+} */
+.tdtask{
+    width: 80%;
+}
+.btndel{
+    padding: 5px 9px;
+    border: 1px solid rgb(219, 223, 29) ;
+    background-color:#ff0000;
+    color: white;
+    font-family: poppins;
+}
+.btnupd{
+    padding: 5px 10px;
+   
+    border: 1px solid rgb(219, 223, 29) ;
+    background-color:#0044ff;
+    color: white;
+    font-family: poppins;
+} 
